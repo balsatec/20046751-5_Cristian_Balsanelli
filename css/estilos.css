@@ -1,0 +1,187 @@
+*{
+	margin:0; 
+	padding:0; 
+	outline:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+li{list-style: none;}
+
+
+.titulo{
+	text-align: center;
+    letter-spacing: -1px;
+    padding: 70px 0px 30px;
+    color: #e04963;
+}
+
+
+.base{
+	margin: 0 auto;
+	width: 990px;
+}
+
+a{text-decoration: none;}
+
+body{
+	font: 16px arial;
+	border-top: 6px solid #9e492f;
+	color: #5a5a5a;
+}
+
+.topo{
+    height: 134px;
+    padding-top: 16px;
+}
+
+.menu{
+	display: flex;
+	align-items: stretch;
+}
+
+.menu li{
+	width: calc(100% / 5);
+    text-align: center;
+    font-size: 22px;
+    padding-top: 50px;
+    border-bottom: 1px solid transparent;
+}
+
+.menu li a{
+	color: #e04963;
+	font-weight: bold;
+}
+
+.menu li.logo img{width: 140px;}
+.menu li.logo{padding-top:0px;}
+
+
+
+.banner{
+	border-top: 1px solid #e1e1e1;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.banner img{width: 100%;}
+
+
+
+.produtos{
+	display: flex;
+	align-items: stretch;
+	padding-bottom:50px;
+}
+
+
+.produtos .link{
+	display: block;
+    text-align: center;
+    width: calc(100% / 4);
+    border-radius: 5px;
+    padding: 9px;
+    color: #e04963;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin: 0px 5px;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+}
+
+.produtos .link .imagem{
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+}
+
+
+.produtos .link .nome{
+	display: block;
+	padding-top: 10px;
+}
+
+
+.mapa{
+	display: flex;
+}
+
+
+.mapa iframe{
+	width: 670px !important;
+    height: 290px !important;
+}
+
+
+.mapa .endereco{
+	padding-right: 20px;
+    padding-top: 89px;
+}
+
+
+.form-contato input{
+	border: solid 1px #d6d6d6;
+    width: 80%;
+    height: 50px;
+    display: block;
+    padding: 0px 10px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+}
+
+.form-contato textarea{
+
+	border: solid 1px #d6d6d6;
+    width: 80%;
+    height: 150px;
+    display: block;
+    padding: 0px 10px;
+    border-radius: 6px;
+
+}
+.form-contato button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.somos{line-height: 27px;}
+
+
+.detalheProduto .dets{
+	display: flex;
+}
+
+
+.detalheProduto .imagemG img{
+	padding: 0px 0px 0 0;
+	border-radius: 26px;
+	display: block;
+	width: 440px;
+}
+
+.detalheProduto .descricao{padding-left: 20px;}
+.detalheProduto .descricao div{margin-bottom: 20px;}
+
+.detalheProduto .titulo{text-align: left;}
+
+footer{
+    bottom: 0;
+    background: #9e492f;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 13px;
+}
+
